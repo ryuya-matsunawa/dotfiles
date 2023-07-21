@@ -3,6 +3,7 @@ tap "homebrew/cask"
 
 # brew
 brew "zsh-completions"
+brew "peco"
 
 # cask
 # cask "google-chrome"
