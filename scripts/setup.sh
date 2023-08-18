@@ -5,6 +5,9 @@ echo "installing Homebrew ..."
 which brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 # cd $THIS_DIR
 
+# oh-my-zshのインストール
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 mv ./files/.zshrc ~/.zshrc
 source ~/.zshrc
 
