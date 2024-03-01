@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Code Blue",
+    "files.insertFinalNewline": true,
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDelete": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "git.confirmSync": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "githubPullRequests.pullBranch": "never",
+    "editor.fontFamily": "",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+}
