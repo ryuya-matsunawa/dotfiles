@@ -10,10 +10,7 @@ charging_symbol = "⚡️"
 discharging_symbol = "💀"
 
 [character]
-style_success = "#ff69b4"
-symbol = "➜"
 error_symbol = "✗"
-use_symbol_for_status = true
 
 [directory]
 style = "#ba55d3"
@@ -39,7 +36,6 @@ disabled = false
 commit_hash_length = 4
 
 [git_state]
-progress_divider = " of "
 cherry_pick = "🍒 PICKING"
 
 [git_status]
@@ -68,11 +64,8 @@ symbol = "+ "
 threshold = 4
 
 [memory_usage]
-show_percentage = true
-show_swap = true
 threshold = -1
 symbol = " "
-separator = "/"
 style = "bold dimmed green"
 
 [nodejs]
@@ -83,5 +76,5 @@ symbol = " "
 style = "#ffc0cb"
 
 [package]
-style = "#ffc0cb"
-symbol = " "
+symbol = "📦 "
+style = "#ff69b4"
