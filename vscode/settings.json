@@ -19,5 +19,5 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "githubPullRequests.pullBranch": "never",
     "editor.fontFamily": "",
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace"
 }

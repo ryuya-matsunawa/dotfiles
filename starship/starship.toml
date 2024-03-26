@@ -45,10 +45,6 @@ behind = "😰"
 diverged = "😵"
 untracked = "🤷<200d>"
 modified = "📝"
-staged.value = "++"
-staged.style = "green"
-staged_count.enabled = true
-staged_count.style = "green"
 renamed = "👅"
 deleted = "🗑 "
 

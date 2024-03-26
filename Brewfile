@@ -7,6 +7,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "peco"
 brew "jq"
+brew "ghq"
 
 # cask
 # cask "google-chrome"

@@ -87,3 +87,15 @@ bindkey '^r' peco-select-history
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+## ghqとの連携。ghqの管理化にあるリポジトリを一覧表示する。ctrl - ]にバインド。
+function peco-src () {
+  local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
+  if [ -n "$selected_dir" ]; then
+    BUFFER="code ${selected_dir}"
+    zle accept-line
+  fi
+  zle clear-screen
+}
+zle -N peco-src
+bindkey '^]' peco-src
