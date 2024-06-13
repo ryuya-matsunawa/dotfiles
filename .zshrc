@@ -1,9 +1,5 @@
 eval "$(starship init zsh)"
 
-[[ -d ~/.rbenv  ]] && \
-  export PATH=${HOME}/.rbenv/bin:${PATH} && \
-  eval "$(rbenv init -)"
-
 ZSH_THEME="cobalt2"
 
 plugins=(git)
@@ -89,6 +85,8 @@ bindkey '^r' peco-select-history
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 ## ghqとの連携。ghqの管理化にあるリポジトリを一覧表示する。ctrl - ]にバインド。
+git config --global ghq.root '~/works'
+
 function peco-src () {
   local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
   if [ -n "$selected_dir" ]; then
