@@ -19,5 +19,15 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "githubPullRequests.pullBranch": "never",
     "editor.fontFamily": "",
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace"
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "[terraform-vars]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    }
 }
