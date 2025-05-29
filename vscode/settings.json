@@ -29,5 +29,17 @@
         "editor.defaultFormatter": "hashicorp.terraform",
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file"
-    }
+    },
+    "go.useLanguageServer": true,
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+        "text": "必ず日本語で記述してください"
+        },
+        {
+        "text": "コミットメッセージは、最初にConventional Commitsに則って記述してください"
+        },
+        {
+        "text": "その後ファイルごとの詳細な変更内容を記述してください"
+        }
+    ]
 }
