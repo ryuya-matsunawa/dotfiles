@@ -56,7 +56,11 @@ if [ -f '/Users/ryuya/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ryuya/goo
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/ryuya/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ryuya/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # history

@@ -65,3 +65,5 @@
   }; f"
 [ghq]
 	root = ~/works
+[core]
+	quotepath = false
