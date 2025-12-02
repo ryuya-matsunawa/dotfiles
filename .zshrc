@@ -61,8 +61,6 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 # history
 HISTFILE=$HOME/.zsh-history
 HISTSIZE=100000

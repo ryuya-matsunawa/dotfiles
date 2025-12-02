@@ -16,30 +16,47 @@
     "editor.tabSize": 2,
     "explorer.confirmDragAndDrop": false,
     "editor.formatOnSave": true,
-    "diffEditor.ignoreTrimWhitespace": false,
     "githubPullRequests.pullBranch": "never",
     "editor.fontFamily": "",
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.formatOnSave",
+        "editor.defaultFormatter"
+    ],
+    "diffEditor.hideUnchangedRegions.enabled": true,
     "[terraform]": {
-        "editor.defaultFormatter": "hashicorp.terraform",
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file"
+        "editor.defaultFormatter": "hashicorp.terraform"
     },
-    "[terraform-vars]": {
-        "editor.defaultFormatter": "hashicorp.terraform",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "extensions.ignoreRecommendations": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "claudeCode.preferredLocation": "panel",
+    "[python]": {
         "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file"
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.tabSize": 4
     },
-    "go.useLanguageServer": true,
-    "github.copilot.chat.commitMessageGeneration.instructions": [
-        {
-        "text": "必ず日本語で記述してください"
-        },
-        {
-        "text": "コミットメッセージは、最初にConventional Commitsに則って記述してください"
-        },
-        {
-        "text": "その後ファイルごとの詳細な変更内容を記述してください"
-        }
+    "ruff.format.preview": false,
+    "ruff.lint.select": [
+        "ALL"
+    ],
+    "ruff.lint.extendSelect": [
+        "ALL"
+    ],
+    "ruff.lint.ignore": [
+        "T201",
+        "D400",
+        "D415",
+        "INP001",
+        "ERA001",
+        "RET504"
     ]
 }
