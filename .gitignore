@@ -1,3 +1,7 @@
 .DS_Store
 .serena/
 *.local
+
+# zsh が ZDOTDIR に生成するキャッシュ
+.zcompdump*
+.zsh_history

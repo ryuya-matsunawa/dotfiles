@@ -51,10 +51,10 @@ function peco-pkill() {
 alias pk="peco-pkill"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/ryuya/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ryuya/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/ryuya/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ryuya/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
@@ -99,3 +99,6 @@ function peco-src () {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+
+# マシン固有の設定（PATH、業務用の認証情報など）はバージョン管理せずここに逃がす
+[ -f "$HOME/.zshrc.local" ] && source "$HOME/.zshrc.local"
