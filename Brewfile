@@ -34,6 +34,8 @@ brew "gnupg"
 brew "go-parquet-tools"
 # Like cURL, but for gRPC
 brew "grpcurl"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # JSON diff and patch
 brew "jd"
 # Lightweight and flexible command-line JSON processor
