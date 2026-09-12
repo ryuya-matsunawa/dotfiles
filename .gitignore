@@ -5,3 +5,8 @@
 # zsh が ZDOTDIR に生成するキャッシュ
 .zcompdump*
 .zsh_history
+
+# herdr がランタイムに生成するもの（~/.config/herdr がリンクされる場合の保険）
+*.log
+*.sock
+.plugins.lock
