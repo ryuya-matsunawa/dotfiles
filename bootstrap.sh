@@ -3,7 +3,7 @@
 set -euo pipefail
 
 DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PACKAGES=(zsh git claude herdr starship hammerspoon vscode)
+PACKAGES=(zsh git claude agents herdr starship hammerspoon vscode)
 
 echo "==> Homebrew"
 if ! command -v brew >/dev/null 2>&1; then
@@ -15,7 +15,7 @@ brew bundle --file="$DOTFILES/Brewfile" || echo "⚠ 一部のパッケージの
 echo "==> シンボリックリンク (stow)"
 # stow がディレクトリごとリンクする（tree folding）のを防ぐ。
 # 特に ~/.claude はセッション履歴などのランタイム状態を持つため実ディレクトリのまま保つ。
-mkdir -p "$HOME/.claude" "$HOME/.config" "$HOME/.config/herdr" "$HOME/.vscode" "$HOME/.hammerspoon"
+mkdir -p "$HOME/.agents" "$HOME/.claude" "$HOME/.config" "$HOME/.config/herdr" "$HOME/.vscode" "$HOME/.hammerspoon"
 
 stow --dir="$DOTFILES" --target="$HOME" --restow "${PACKAGES[@]}"
 
