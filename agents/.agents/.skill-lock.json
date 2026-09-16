@@ -164,6 +164,15 @@
       "skillFolderHash": "b9dcfddcfa7ce43e2e4cf60e724c519be553f149",
       "installedAt": "2026-09-09T08:00:33.188Z",
       "updatedAt": "2026-09-09T08:00:33.188Z"
+    },
+    "natural-japanese": {
+      "source": "coji/natural-japanese",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coji/natural-japanese.git",
+      "skillPath": "skills/natural-japanese/SKILL.md",
+      "skillFolderHash": "77fce8fc457a41321ac4963065590fb91c14f781",
+      "installedAt": "2026-09-16T01:29:53.025Z",
+      "updatedAt": "2026-09-16T01:29:53.025Z"
     }
   },
   "dismissed": {
