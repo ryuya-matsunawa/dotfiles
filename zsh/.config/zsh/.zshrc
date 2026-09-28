@@ -4,7 +4,8 @@ ZSH_THEME="cobalt2"
 
 plugins=(git)
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+# asdf 0.16 以降は Go 実装になり asdf.sh が廃止された。shims を PATH に通すだけでよい
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # gcloud project swhich
 function gcloud_prj_switch () {
