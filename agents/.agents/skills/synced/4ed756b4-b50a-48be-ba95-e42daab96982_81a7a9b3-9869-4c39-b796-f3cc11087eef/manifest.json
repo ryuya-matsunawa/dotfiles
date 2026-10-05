@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791011848446,
+  "lastUpdated": 1791185110592,
   "skills": [
     {
       "skillId": "docs",
@@ -135,6 +135,22 @@
       "description": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file. Use this skill whenever the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \"change it\" or \"add a tab\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
       "source": "anthropic-example",
       "updatedAt": "2026-09-23T19:50:41.402985Z"
+    },
+    {
+      "skillId": "skill_014L2P6fqZoq7EQ2iWJVc81f",
+      "name": "bq-query-review",
+      "description": "BigQueryクエリの集計条件一貫性・品質を担保するレビュースキル。\n以下のフレーズが含まれる場合は必ずこのスキルを使用すること：\n- 「クエリをレビューして」「このクエリ確認して」「集計条件が合っているか見て」\n- 「前回と条件が一致しているか確認して」「クエリのチェックして」「期間が正しいか確認して」\n- クエリ（SQLコード）が貼り付けられて確認・レビューを求められた場合\n- 新規クエリ生成の前に集計条件を固定したい場合（「条件を固定して」「期間を合わせて」）\n- マストバイレポート・0次分析・N1分析など、分析着手前に条件を確認したい場合\n- 「集計条件マスターを作って」「マスター条件を固定して」\n- 「集計期間を確認して」「この条件で問題ないか確認して」\n- 「品質だけチェックして」「マスターなしでレビューして」",
+      "source": "plugin",
+      "updatedAt": "2026-06-02T05:20:04.231916Z",
+      "backingPluginId": "plugin_01J9dGQZJ86jXq3N4J8jZPuM"
+    },
+    {
+      "skillId": "skill_01H4iHsZQcJgoqN7ghehxUkv",
+      "name": "analysis-delivery-review",
+      "description": "データ分析依頼・レポート作成を着手から納品まで工程別に伴走し、各工程の出口で通過判定を行うスキル。\n以下の場合は必ずこのスキルを使用すること：\n- Notion依頼票のURLだけが貼られ、具体的な作業指示が無いとき（最も多い形）\n- 「この依頼どう進める？」「着手計画を出して」「着手前に整理して」\n- 「いま何をすべき？」「次は何？」「現在地を教えて」\n- 「納品前にチェックして」「抜け漏れないか見て」「出して大丈夫か」\n- 「指摘対応が終わったか確認して」「クローズしていい？」\n- 「GATE1/2/3/4を当てて」「通過ゲートを確認して」「工程別レビュー観点を当てて」\n\n最も効くのは「着手前」と「自分の手を離れる直前」。\n単純な照会（ID既知の参加UU・期間指定だけのレシート数）では使わない。\n対象外（委譲）：分析設計・データソース選択・クエリ構造・regex・結果解釈の中身は receipt-data-analysis／\n集計条件マスターの起案とクエリ単体の20項目レビューは bq-query-review。",
+      "source": "plugin",
+      "updatedAt": "2026-10-05T07:22:10.274441Z",
+      "backingPluginId": "plugin_015HoBA5sCtb1AXNDdZzMYbs"
     }
   ],
   "pendingClaims": [
