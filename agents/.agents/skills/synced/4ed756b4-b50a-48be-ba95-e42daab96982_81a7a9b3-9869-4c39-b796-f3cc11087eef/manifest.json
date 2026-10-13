@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791185110592,
+  "lastUpdated": 1791516734486,
   "skills": [
     {
       "skillId": "docs",
@@ -134,7 +134,7 @@
       "name": "google-workspace",
       "description": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file. Use this skill whenever the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \"change it\" or \"add a tab\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
       "source": "anthropic-example",
-      "updatedAt": "2026-09-23T19:50:41.402985Z"
+      "updatedAt": "2026-10-06T23:31:35.618898Z"
     },
     {
       "skillId": "skill_014L2P6fqZoq7EQ2iWJVc81f",
@@ -154,8 +154,44 @@
     }
   ],
   "pendingClaims": [
-    "42700:Thu Oct  1 04:58:35 2026/pptx",
-    "54673:Mon Sep 28 08:10:19 2026/pptx",
-    "68252:Tue Sep 29 05:31:07 2026/pptx"
+    "92921:Wed Sep 30 04:43:29 2026/computer-use",
+    "92921:Wed Sep 30 04:43:29 2026/chrome-browser",
+    "92921:Wed Sep 30 04:43:29 2026/built-in-browser",
+    "92921:Wed Sep 30 04:43:29 2026/deep-research",
+    "42700:Thu Oct  1 04:58:35 2026/computer-use",
+    "42700:Thu Oct  1 04:58:35 2026/chrome-browser",
+    "42700:Thu Oct  1 04:58:35 2026/built-in-browser",
+    "42700:Thu Oct  1 04:58:35 2026/deep-research",
+    "82410:Mon Sep 28 05:22:20 2026/computer-use",
+    "82410:Mon Sep 28 05:22:20 2026/chrome-browser",
+    "82410:Mon Sep 28 05:22:20 2026/built-in-browser",
+    "82410:Mon Sep 28 05:22:20 2026/deep-research",
+    "53286:Mon Oct  5 02:34:48 2026/google-workspace",
+    "53286:Mon Oct  5 02:34:48 2026/computer-use",
+    "53286:Mon Oct  5 02:34:48 2026/chrome-browser",
+    "53286:Mon Oct  5 02:34:48 2026/built-in-browser",
+    "53286:Mon Oct  5 02:34:48 2026/deep-research",
+    "51215:Mon Sep 28 04:59:51 2026/computer-use",
+    "51215:Mon Sep 28 04:59:51 2026/chrome-browser",
+    "51215:Mon Sep 28 04:59:51 2026/built-in-browser",
+    "51215:Mon Sep 28 04:59:51 2026/deep-research",
+    "9871:Tue Sep 29 02:27:41 2026/computer-use",
+    "9871:Tue Sep 29 02:27:41 2026/chrome-browser",
+    "9871:Tue Sep 29 02:27:41 2026/built-in-browser",
+    "9871:Tue Sep 29 02:27:41 2026/deep-research",
+    "54213:Thu Oct  1 09:14:40 2026/google-workspace",
+    "54213:Thu Oct  1 09:14:40 2026/computer-use",
+    "54213:Thu Oct  1 09:14:40 2026/chrome-browser",
+    "54213:Thu Oct  1 09:14:40 2026/built-in-browser",
+    "54213:Thu Oct  1 09:14:40 2026/deep-research",
+    "41018:Mon Sep 28 05:48:25 2026/google-workspace",
+    "41018:Mon Sep 28 05:48:25 2026/computer-use",
+    "41018:Mon Sep 28 05:48:25 2026/chrome-browser",
+    "41018:Mon Sep 28 05:48:25 2026/built-in-browser",
+    "41018:Mon Sep 28 05:48:25 2026/deep-research",
+    "10843:Fri Oct  2 01:20:12 2026/computer-use",
+    "10843:Fri Oct  2 01:20:12 2026/chrome-browser",
+    "10843:Fri Oct  2 01:20:12 2026/built-in-browser",
+    "10843:Fri Oct  2 01:20:12 2026/deep-research"
   ]
 }
