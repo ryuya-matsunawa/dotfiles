@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791516734486,
+  "lastUpdated": 1791862035072,
   "skills": [
     {
       "skillId": "docs",
@@ -151,6 +151,22 @@
       "source": "plugin",
       "updatedAt": "2026-10-05T07:22:10.274441Z",
       "backingPluginId": "plugin_015HoBA5sCtb1AXNDdZzMYbs"
+    },
+    {
+      "skillId": "skill_01HmR12ynTaawysEcwbrJNnM",
+      "name": "product-kb-ask",
+      "description": "ONE／WEDのプロダクト知見について質問に答えるスキル。Notionの「プロダクトナレッジベース」を土台に、Slack・Linear・Google Drive・GitHubで必ず裏取りし、信憑性（ソース強度×検証ステータス）付きで回答する。「〇〇の仕様どうなってる？」「〇〇っていつ変わった？」「なぜ〇〇はこうなっている？」「〇〇の経緯を知りたい」「KBに聞いて」「ナレッジベースで調べて」「Askで聞きたい」など、プロダクトの機能・仕様・施策・経緯・数値ロジック（オンボーディング、スタートミッション、レシート買取、ガラポン、eギフト交換、出金、CRM・通知、広告・AdMob など）を尋ねられたら必ず使うこと。「ナレッジベース」という言葉が出ていなくても、社内のプロダクト知識を調べて答える場面ならこれを使う。",
+      "source": "plugin",
+      "updatedAt": "2026-10-13T03:24:39.610872Z",
+      "backingPluginId": "plugin_01FeXA6QHDgRhgiqUNCL5KjV"
+    },
+    {
+      "skillId": "skill_01WWcs4kkV3GsxerD9qUX7Qf",
+      "name": "product-kb-add",
+      "description": "ONE／WEDのプロダクト知見をNotionの「プロダクトナレッジベース」に追加・更新するスキル。渡されたSlack・Linear・Notion・Google Drive・GitHub・Web・テキストを蒸留し、属性付与・GitHubでのコード検証・既存ナレッジとのコンフリクト検査を行って1ページとして登録する。「KBに追加して」「ナレッジに入れて」「これ残しておいて」「この知見を登録」「Addして」「このSlackスレッドをナレッジ化して」など、知識を保存・蓄積したい依頼のほか、product-kb-ask の回答後にユーザーがKBへの追加・更新を承認した場合にも必ず使うこと。",
+      "source": "plugin",
+      "updatedAt": "2026-10-13T03:24:56.108690Z",
+      "backingPluginId": "plugin_0177MGXWYBz12VXxahWXMYB8"
     }
   ],
   "pendingClaims": [
