@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792617622751,
+  "lastUpdated": 1792796899772,
   "skills": [
     {
       "skillId": "docs",
@@ -97,7 +97,7 @@
       "name": "pptx",
       "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
       "source": "anthropic",
-      "updatedAt": "2026-10-02T22:00:34.625666Z"
+      "updatedAt": "2026-10-23T23:00:21.784277Z"
     },
     {
       "skillId": "pdf",
@@ -170,19 +170,15 @@
     }
   ],
   "pendingClaims": [
+    "87273:Tue Oct 20 02:34:52 2026/pptx",
+    "10582:Tue Oct 20 06:07:40 2026/pptx",
+    "82878:Thu Oct 22 07:25:38 2026/pptx",
     "9871:Tue Sep 29 02:27:41 2026/skill-creator",
     "51241:Mon Oct  5 04:54:24 2026/skill-creator",
-    "97830:Fri Oct 16 02:46:33 2026/skill-creator",
-    "53286:Mon Oct  5 02:34:48 2026/skill-creator",
     "10582:Tue Oct 20 06:07:40 2026/skill-creator",
-    "64492:Tue Oct 20 06:32:59 2026/skill-creator",
-    "57789:Wed Oct 21 05:31:12 2026/skill-creator",
     "63575:Thu Oct 15 09:43:29 2026/skill-creator",
     "42700:Thu Oct  1 04:58:35 2026/skill-creator",
     "22734:Mon Oct  5 01:09:54 2026/skill-creator",
-    "9161:Wed Oct 21 09:18:41 2026/skill-creator",
-    "69298:Tue Oct  6 05:41:17 2026/skill-creator",
-    "67544:Mon Oct  5 05:38:54 2026/skill-creator",
     "19900:Wed Oct 21 01:29:42 2026/built-in-browser",
     "74866:Fri Oct 16 02:07:22 2026/built-in-browser",
     "6235:Mon Oct 19 09:24:26 2026/built-in-browser",
@@ -219,7 +215,6 @@
     "82410:Mon Sep 28 05:22:20 2026/computer-use",
     "82410:Mon Sep 28 05:22:20 2026/chrome-browser",
     "82410:Mon Sep 28 05:22:20 2026/deep-research",
-    "53286:Mon Oct  5 02:34:48 2026/google-workspace",
     "53286:Mon Oct  5 02:34:48 2026/computer-use",
     "53286:Mon Oct  5 02:34:48 2026/chrome-browser",
     "53286:Mon Oct  5 02:34:48 2026/built-in-browser",
