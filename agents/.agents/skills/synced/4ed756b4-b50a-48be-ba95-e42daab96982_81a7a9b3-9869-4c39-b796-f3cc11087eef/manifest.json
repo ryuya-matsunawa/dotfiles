@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793693131567,
+  "lastUpdated": 1793865002894,
   "skills": [
     {
       "skillId": "docs",
@@ -62,14 +62,6 @@
       "source": "plugin",
       "updatedAt": "2026-05-15T09:10:11.145278Z",
       "backingPluginId": "plugin_013bb4FZz1a4Q1DikwyDGG63"
-    },
-    {
-      "skillId": "skill_01TGFNoiu1P9PDMUdSMtRg9P",
-      "name": "receipt-analysis-for-solutions",
-      "description": "セールスメンバー（非エンジニア）がレシートデータに関する問い合わせをチャットで完結させるためのスキル。 クライアントへの分析可否の即答・分析条件の整理・提案資料の根拠づくりをサポートする。 以下のフレーズが含まれる場合は必ずこのスキルを使用すること： - 「レシートデータで〇〇できる？」「この分析可能？」「ONEのデータで調べたい」 - 「クライアントに〇〇を見せたい」「参加者数を出したい」「購買データを確認したい」 - 「マストバイの結果を知りたい」「キャンペーンの効果を出したい」「施策の成果を見たい」 - 「〇〇チェーンでの購買を集計したい」「商品〇〇の購買者を出したい」 - セールスメンバーがレシートデータ分析を依頼・相談するあらゆる場面",
-      "source": "plugin",
-      "updatedAt": "2026-06-04T02:47:30.974968Z",
-      "backingPluginId": "plugin_0175WNdhiji1zwk2Pca9dce3"
     },
     {
       "skillId": "morning",
